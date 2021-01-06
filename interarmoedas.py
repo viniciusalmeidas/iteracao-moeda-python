@@ -4,9 +4,9 @@
 # Exemplo Questão
 # Uma máquina automática que vende doces só aceita moedas de 1 centavo, 5 centavo e 10 centavos.
 # Quantas possibilidades você tem para combinar essas moedas e MaiorMoedar um doce que custa 25 centavos?
-
+#asdadasdadasdad
 def combinacao_moedas(compra, MaiorMoeda):
-    cont = 0
+    cont = 0;
 
     if MaiorMoeda == 100:
         for a in range(0, int(compra/100)+1):
